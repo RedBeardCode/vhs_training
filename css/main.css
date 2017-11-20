@@ -1,0 +1,41 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4{
+    font-family: 'Electrolize', sans-serif;
+}
+
+.reveal{
+    font-family: 'Electrolize', sans-serif;
+}
+
+.cm-s-solarized.cm-s-dark{
+    background-color: #000000;
+}
+
+.CodeMirror-wrap .CodeMirror-scroll{
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.0;
+    font-family: monospace;
+
+
+}
+
+.CodeMirror-gutter{
+    background-color: #000000;
+    color: #000000;
+    visibility: hidden;
+
+}
+
+.CodeMirror-code pre
+{
+    box-shadow: None;
+    margin: 3px auto;
+}
+
+.cm-s-solarized.CodeMirror
+{
+    -webkit-box-shadow: None;
+    box-shadow: None;
+}
+
+
