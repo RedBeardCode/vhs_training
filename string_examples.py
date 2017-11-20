@@ -1,8 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Beispiele zum Umgang mit Strings
+"""
+
 def read_file(filename='textbeispiel.txt'):
     """
     Liest eine Textdatei und und gibt eine Liste der Zeilen zurück
     """
-    txt_file = open(filename, 'r')
+    txt_file = open(filename, 'r', encoding='utf-8')
     lines = txt_file.readlines()
     txt_file.close()
     return lines

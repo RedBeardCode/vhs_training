@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Beispiele zum Umgang mit Listen
 """
