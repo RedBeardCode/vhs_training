@@ -86,8 +86,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="fragment">Plattformunabhängig</li>
-                    <li class="fragment">Ökosystem</li>
+                    <li class="fragment">Plattformunabh&auml;ngig</li>
+                    <li class="fragment">&Ouml;kosystem</li>
                     <li class="fragment">Kostenlos</li>
                 </ul>
             </section>
@@ -97,9 +97,9 @@
             <section>
                 <h2>Wieso gibt es Python 2 und 3</h2>
                 <ul>
-                    <li class="fragment">Aufräumen von Fehlentscheidungen</li>
+                    <li class="fragment">Aufr&auml;umen von Fehlentscheidungen</li>
                     <li class="fragment">Python 2.7 ist die letzte Version</li>
-                    <li class="fragment">Python 2 nur noch in Ausnahmefällen</li>
+                    <li class="fragment">Python 2 nur noch in Ausnahmef&auml;llen</li>
                 </ul>
             </section>
             <section>
@@ -169,24 +169,78 @@
             <section>
                 <h2>5. Interperter vs. Compiler</h2>
             </section>
-        </section>
-        <section>
             <section>
-                <h2>6. Das Ökosystem und Beispieltag</h2>
+                <strong>Interpreter</strong> sind &Uuml;bersetzungsprogramme, die jeweils eine einzelne Befehlszeile
+                des Programms &uuml;bersetzen und ausf&uuml;hren. Python benutzt beispielsweise einen Interpreter
+                zur &Uuml;bersetzung.
+            </section>
+            <section>
+                <strong>Compiler</strong> &uuml;bersetzen  das  gesamte, in  einer  Programmiersprache  erstellte Programm
+                (Quellprogramm) in ein ausf&uuml;hrbares Zielprogramm (Maschinensprache). Erst wenn das Programm komplett
+                und "fehlerfrei" &uuml;bersetzt wurde, kann es vom Benutzer ausgef&uuml;hrt werden.
+            </section>
+            <section>
+                <table id="compiler_table">
+                    <tbody>
+                    <tr>
+                        <th>Interpreter</th>
+                        <th>Compiler</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Da der Quellcode vor dem Programmstart nicht analysiert wird werden auch einfache Fehler,
+                            wie Tippfehler erst zur Laufzeit entdeckt.
+                        </td>
+                        <td>
+                            W&auml;hrend des Compiliers werden viele Fehler schon entdeckt und verhindern so, dass der
+                            Fehler das Programm zum Absturz bringt.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Generell sind interpretierte Programme langsamer und ineffizient. Es m&uuml;ssen immer
+                            die selben Programmteile, wie zum Beispiel Schleifen und Funktionen, erneut &uuml;bersetzt
+                            werden.
+                        </td>
+                        <td>
+                            Die &Uuml;bersetzung in ausf&uuml;hrbaren Code ist &auml;u&szlig;erst effizient und optimiert den
+                            generierten Code. Compilierte Programme arbeiten sehr schnell, was sich besonders bei lang
+                            laufenden Programmen lohnt.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Bei der Entwicklung der Software kann man sofort testen, was das Debugging (Fehlersuche)
+                            erleichtert
+                        </td>
+                        <td>
+                            Der Aufwand bei der Software-Entwicklung steigt durch das Compilieren, was einiges an Zeit
+                            und Ressourcen in Anspruch nimmt. So muss bei jeder Quelltext-&Auml;nderung erneut compiliert
+                            werden, wenn das Programm getestet werden soll.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <img src="img/compiling.png"
+                     style="border: none; box-shadow:none; background: none;">
             </section>
         </section>
         <section>
             <section>
-                <h2>7. Klassen</h2>
+                <h2>6. Klassen</h2>
             </section>
         </section>
         <section>
-            <h2>8. Unicode</h2>
+            <h2>7. Unicode</h2>
         </section>
         <section>
-            <h2>9. Testing</h2>
+            <h2>8. Testing</h2>
         </section>
-
+        <section>
+            <h2>9. Das &Ouml;kosystem und Modulbeispiele</h2>
+        </section>
         <section>
             <h2>10. CVS</h2>
         </section>

@@ -10,6 +10,11 @@
     background-color: #000000;
 }
 
+#compiler_table{
+    color: #93a1a1;
+    font-size: 0.5em;
+}
+
 .CodeMirror-wrap .CodeMirror-scroll{
     text-align: left;
     font-size: 13px;
