@@ -1,4 +1,8 @@
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Fahrtenbuch zum berechnen der Entfernung zweier Adressen
+"""
 from time import sleep
 from openpyxl import load_workbook
 from googlemaps import Client
