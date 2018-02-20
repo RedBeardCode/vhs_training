@@ -8,7 +8,7 @@ from openpyxl import load_workbook
 from googlemaps import Client
 
 def calc_distance(destination, target):
-    gmaps = Client(key='AIzaSyAXGYRrGVpO4KXA2TJziog2LTnOa6StCOQ')
+    gmaps = Client(key='SomeSecretKex')
     route = gmaps.directions(destination, target)
     legs = route[0]['legs']
     distance = legs[0]['distance']
