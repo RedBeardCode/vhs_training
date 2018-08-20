@@ -33,7 +33,7 @@ def get_number_of_words():
 
 def get_most_mentioned_word():
     """
-    Gibt das meist genutze Wort und dessen Häufigkeit zurück
+    Gibt das meist genutze global WORD_COUNTSWort und dessen Häufigkeit zurück
     """
     max_count = -1
     max_word = ''
@@ -55,7 +55,10 @@ def descending_output():
     """
     Gibt die Worthäufigkeit in absteigender Reihenfolge aus
     """
+    def get_value(word):
+        return WORD_COUNTS[word]
+
     for word in sorted(WORD_COUNTS,
-                       key=lambda word: WORD_COUNTS[word],
+                       key=get_value,
                        reverse=True):
         print('{0}: {1}'.format(word, WORD_COUNTS[word]))

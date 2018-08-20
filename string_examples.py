@@ -54,3 +54,6 @@ def replace_word(word='Glocke', new_word='Klimbim'):
     text = text.replace('\n' + word + ' ', '\n' + new_word + ' ')
     text = text.replace(' ' + word + '\n', ' ' + new_word + '\n')
     return text
+
+if __name__ == '__main__':
+    print('Ausgabe')

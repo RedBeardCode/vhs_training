@@ -30,5 +30,6 @@ def replace_month(date_string):
 
 
 
-replace_month('14.05.1979')
-replace_month('14.5.1979')
+print(replace_month('14.05.1979'))
+print(replace_month('14.5.1979'))
+
